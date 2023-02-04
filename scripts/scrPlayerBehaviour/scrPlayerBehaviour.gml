@@ -85,4 +85,10 @@ if coyoteTimer < 0 coyoteTimer=0;
 if stretch > 0 stretch -= stretchSpeed;
 if stretch < 0 stretch = 0;
 
+if isMirrored {
+	playerXscale = -1+stretch
+} else {
+	playerXscale = 1-stretch;
+}
+
 }
