@@ -1,3 +1,4 @@
+isNoclip = false;
 delta = min(1, (delta_time / (1000000/60)));
 coyoteTime = 10;
 coyoteTimer = coyoteTime;

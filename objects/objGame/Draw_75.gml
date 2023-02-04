@@ -3,7 +3,7 @@ display_set_gui_size(global.res_width, global.res_height);
 draw_set_font(-1);
 if global.devMode{
 	var fpsString = string(fps)+"fps"+"\n"+string(fps_real)+"steps";
-	var devString ="Dev mode is ON"+"\n"+fpsString+"\n"+"Global Game Jam 2023"+"\n"+"https://wwww.pi0h1.com/"+"\n"+"Press R to Restart";
+	var devString ="Dev mode is ON"+"\n"+fpsString+"\n"+"Global Game Jam 2023"+"\n"+"https://wwww.pi0h1.com/"+"\n"+"Press R to Restart"+"\n"+"Shift + G to Toggle Filter"+"\n"+"V to Noclip";
 } else {
 	devString = "Press [G] to Enter Dev Mode"
 }
