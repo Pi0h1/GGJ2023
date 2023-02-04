@@ -1,3 +1,8 @@
+instance_create_depth(0,0,1,objSolidFollowPlayer);
+instance_create_depth(384-32,0,1,objSolidFollowPlayer);
+instance_create_depth(x,y,1,objCursor);
+playerJacket = jacketIdle
+colorJacket = make_colour_hsv(random(255),192,192);
 isNoclip = false;
 delta = min(1, (delta_time / (1000000/60)));
 coyoteTime = 10;
