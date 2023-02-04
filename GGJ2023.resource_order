@@ -6,7 +6,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"objGame","order":3,"path":"objects/objGame/objGame.yy",},
     {"name":"objSolid","order":2,"path":"objects/objSolid/objSolid.yy",},
     {"name":"rmPause","order":1,"path":"rooms/rmPause/rmPause.yy",},
     {"name":"scrRestart","order":1,"path":"scripts/scrRestart/scrRestart.yy",},
