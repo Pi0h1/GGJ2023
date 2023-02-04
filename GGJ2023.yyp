@@ -42,8 +42,8 @@
     {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":9,},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rmPause","path":"rooms/rmPause/rmPause.yy",},},
     {"roomId":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},},
+    {"roomId":{"name":"rmPause","path":"rooms/rmPause/rmPause.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
