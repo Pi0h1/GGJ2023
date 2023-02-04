@@ -36,6 +36,7 @@
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"scrPlayerBehaviour","path":"scripts/scrPlayerBehaviour/scrPlayerBehaviour.yy",},"order":0,},
+    {"id":{"name":"Ground_1","path":"sprites/Ground_1/Ground_1.yy",},"order":0,},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"rmPause","path":"rooms/rmPause/rmPause.yy",},"order":0,},
