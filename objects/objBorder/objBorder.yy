@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite11",
-    "path": "sprites/Sprite11/Sprite11.yy",
+    "name": "sprWood",
+    "path": "sprites/sprWood/sprWood.yy",
   },
   "spriteMaskId": null,
   "visible": true,
