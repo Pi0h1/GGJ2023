@@ -5,7 +5,7 @@
   "bbox_bottom": 31,
   "bbox_left": 6,
   "bbox_right": 24,
-  "bbox_top": 2,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ba85cdfd-61f2-48b3-ab83-b87b24fea1f1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"750277f7-ada1-433c-a9d7-e5efa2cfd57c",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7d1e6ae5-334a-4feb-b1b9-32ec68a88d26","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"84cf3ad4-1f63-47eb-badf-e702fe3f1c02","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 7,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ba85cdfd-61f2-48b3-ab83-b87b24fea1f1","path":"sprites/sprPlayer/sprPlayer.yy",},},},"Disabled":false,"id":"6caaec9d-d347-49e8-adc0-772130a977be","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"750277f7-ada1-433c-a9d7-e5efa2cfd57c","path":"sprites/sprPlayer/sprPlayer.yy",},},},"Disabled":false,"id":"574648a0-f5f4-4dcf-b496-7e90cb9350cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
