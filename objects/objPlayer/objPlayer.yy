@@ -30,13 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
-  },
-  "spriteMaskId": {
-    "name": "sprPlayerCollision",
-    "path": "sprites/sprPlayerCollision/sprPlayerCollision.yy",
-  },
+  "spriteId": null,
+  "spriteMaskId": null,
   "visible": true,
 }
