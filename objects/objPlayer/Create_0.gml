@@ -18,9 +18,7 @@ levelBeaten = false;
 global.controller_exists = false;
 image_speed = 0.1;
 grav = 0.15;
-playerHealth=100;
-playerHealthRegen=0.1;
-playerSprintSpeed=2.5;
+
 playerSpeed=2;
 jspd=3;
 hspd=0;
