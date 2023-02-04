@@ -7,10 +7,11 @@ function scrPlayerBehaviour(){
 	
 	if (rkey || lkey) {
 	    move = rkey - lkey
+		yStretch = 0.05;
 	} else {
 	    move = haxis
 	}
-
+	playerYscale = 1 - yStretch;
 	hspd = move * spd;
 	spd = playerSpeed;
 	
@@ -86,6 +87,9 @@ if coyoteTimer < 0 coyoteTimer=0;
 
 if stretch > 0 stretch -= stretchSpeed;
 if stretch < 0 stretch = 0;
+
+if yStretch > 0 yStretch -= stretchSpeed;
+if yStretch < 0 yStretch = 0;
 
 if isMirrored {
 	playerXscale = -1+stretch

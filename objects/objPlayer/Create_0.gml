@@ -6,6 +6,7 @@ isTouchingGround = false;
 hasJumped = false;
 isMirrored = false;
 stretch=0;
+yStretch=0
 stretchSpeed=0.05;
 playerXscale = image_xscale;
 playerYscale = image_yscale;
