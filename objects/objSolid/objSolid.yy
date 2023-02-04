@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprSolid",
-    "path": "sprites/sprSolid/sprSolid.yy",
+    "name": "sprGround",
+    "path": "sprites/sprGround/sprGround.yy",
   },
   "spriteMaskId": null,
   "visible": true,
