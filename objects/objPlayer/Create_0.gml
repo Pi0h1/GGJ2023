@@ -1,3 +1,5 @@
+
+
 delta = min(1, (delta_time / (1000000/60)));
 coyoteTime = 10;
 coyoteTimer = coyoteTime;
@@ -16,7 +18,7 @@ global.playerStartX = x;
 isDead=0;
 levelBeaten = false;
 global.controller_exists = false;
-image_speed = 0.1;
+image_speed = 0.2;
 grav = 0.15;
 
 playerSpeed=2;
@@ -31,7 +33,7 @@ spd=playerSpeed;
 gun_yscale=0;
 gun_xscale=0;
 PlayerWalking=sprPlayer;
-PlayerIdle=sprPlayer;
+PlayerIdle=sprPlayerIdle;
 SolidObject=objSolid;
-PlayerJump=sprPlayer;
-PlayerFall=sprPlayer;
+PlayerJump=sprPlayerJump;
+PlayerFall=sprPlayerJump;
