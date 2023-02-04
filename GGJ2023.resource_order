@@ -15,5 +15,12 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"scrRestart","order":1,"path":"scripts/scrRestart/scrRestart.yy",},
+    {"name":"Sprite2","order":15,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"objGame","order":3,"path":"objects/objGame/objGame.yy",},
+    {"name":"rmPause","order":1,"path":"rooms/rmPause/rmPause.yy",},
+    {"name":"objSolid","order":2,"path":"objects/objSolid/objSolid.yy",},
+  ],
 }

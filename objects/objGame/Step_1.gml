@@ -1,0 +1,1 @@
+delta = min(1, (delta_time / (1000000/60)));
