@@ -20,3 +20,5 @@ noiseIndex = 0;
 filterAlpha = 0.1;
 
 toggleFilter = true;
+
+global.musicTrack = 0;
