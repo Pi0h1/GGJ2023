@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprGround",
+    "path": "sprites/sprGround/sprGround.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
