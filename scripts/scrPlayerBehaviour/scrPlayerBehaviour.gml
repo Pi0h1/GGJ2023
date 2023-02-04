@@ -6,7 +6,7 @@ function scrPlayerBehaviour(){
 	var jkey = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("z")) || gamepad_button_check_pressed(0, gp_face1);
 	
 	if (rkey || lkey) {
-	    move = rkey - lkey
+	    move = rkey - lkey;
 		yStretch = 0.05;
 	} else {
 	    move = haxis
