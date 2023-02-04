@@ -13,7 +13,9 @@ function scrPlayerBehaviour(){
 
 	hspd = move * spd;
 	spd = playerSpeed;
-	isMirrored = move;
+	
+	if rkey isMirrored = false;
+	if lkey isMirrored = true;
 	
 	if ((!rkey && !lkey) || (rkey && lkey)) {
 	        hspd = 0 sprite_index = PlayerIdle;
@@ -91,4 +93,5 @@ if isMirrored {
 	playerXscale = 1-stretch;
 }
 
+//playerYscale = 1 -stretch;
 }

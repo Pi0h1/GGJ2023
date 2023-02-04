@@ -33,14 +33,15 @@
   },
   "resources": [
     {"id":{"name":"scrRestart","path":"scripts/scrRestart/scrRestart.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":0,},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
     {"id":{"name":"scrPlayerBehaviour","path":"scripts/scrPlayerBehaviour/scrPlayerBehaviour.yy",},"order":0,},
     {"id":{"name":"objGame","path":"objects/objGame/objGame.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"rmPause","path":"rooms/rmPause/rmPause.yy",},"order":0,},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"order":0,},
     {"id":{"name":"Sprite_0001","path":"sprites/Sprite_0001/Sprite_0001.yy",},"order":0,},
+    {"id":{"name":"sprPlayerCollision","path":"sprites/sprPlayerCollision/sprPlayerCollision.yy",},"order":0,},
     {"id":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

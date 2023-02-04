@@ -31,9 +31,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite1",
-    "path": "sprites/Sprite1/Sprite1.yy",
+    "name": "sprPlayer",
+    "path": "sprites/sprPlayer/sprPlayer.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprPlayerCollision",
+    "path": "sprites/sprPlayerCollision/sprPlayerCollision.yy",
+  },
   "visible": true,
 }
