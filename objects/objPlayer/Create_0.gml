@@ -1,5 +1,3 @@
-
-
 delta = min(1, (delta_time / (1000000/60)));
 coyoteTime = 10;
 coyoteTimer = coyoteTime;
@@ -20,7 +18,7 @@ levelBeaten = false;
 global.controller_exists = false;
 image_speed = 0.2;
 grav = 0.15;
-
+treasures = 0;
 playerSpeed=2;
 jspd=3;
 hspd=0;

@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprGround",
-    "path": "sprites/sprGround/sprGround.yy",
+    "name": "sprSolid",
+    "path": "sprites/sprSolid/sprSolid.yy",
   },
   "spriteMaskId": null,
   "visible": true,
