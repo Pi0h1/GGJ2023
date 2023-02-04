@@ -19,8 +19,11 @@
     {"name":"scrRestart","order":1,"path":"scripts/scrRestart/scrRestart.yy",},
     {"name":"Sprite2","order":15,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"rock9","order":3,"path":"sprites/rock9/rock9.yy",},
     {"name":"objGame","order":3,"path":"objects/objGame/objGame.yy",},
+    {"name":"Flower","order":2,"path":"sprites/Flower/Flower.yy",},
     {"name":"rmPause","order":1,"path":"rooms/rmPause/rmPause.yy",},
     {"name":"objSolid","order":2,"path":"objects/objSolid/objSolid.yy",},
+    {"name":"Bush","order":1,"path":"sprites/Bush/Bush.yy",},
   ],
 }
