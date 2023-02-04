@@ -43,6 +43,8 @@
     {"id":{"name":"rmPause","path":"rooms/rmPause/rmPause.yy",},"order":0,},
     {"id":{"name":"objSolid","path":"objects/objSolid/objSolid.yy",},"order":0,},
     {"id":{"name":"Sprite_0001","path":"sprites/Sprite_0001/Sprite_0001.yy",},"order":0,},
+    {"id":{"name":"sprPlantBoom","path":"sprites/sprPlantBoom/sprPlantBoom.yy",},"order":0,},
+    {"id":{"name":"objBoomPlant","path":"objects/objBoomPlant/objBoomPlant.yy",},"order":0,},
     {"id":{"name":"sprPlayerCollision","path":"sprites/sprPlayerCollision/sprPlayerCollision.yy",},"order":0,},
     {"id":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},"order":0,},
   ],

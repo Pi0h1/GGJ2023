@@ -23,6 +23,8 @@
     {"name":"objGame","order":3,"path":"objects/objGame/objGame.yy",},
     {"name":"rmPause","order":1,"path":"rooms/rmPause/rmPause.yy",},
     {"name":"objSolid","order":2,"path":"objects/objSolid/objSolid.yy",},
+    {"name":"sprPlantBoom","order":5,"path":"sprites/sprPlantBoom/sprPlantBoom.yy",},
+    {"name":"objBoomPlant","order":4,"path":"objects/objBoomPlant/objBoomPlant.yy",},
     {"name":"sprPlayerCollision","order":3,"path":"sprites/sprPlayerCollision/sprPlayerCollision.yy",},
   ],
 }
