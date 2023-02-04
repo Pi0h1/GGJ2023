@@ -34,6 +34,7 @@
   "resources": [
     {"id":{"name":"scrRestart","path":"scripts/scrRestart/scrRestart.yy",},"order":0,},
     {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":0,},
+    {"id":{"name":"Sprite_0002","path":"sprites/Sprite_0002/Sprite_0002.yy",},"order":0,},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":0,},
     {"id":{"name":"scrPlayerBehaviour","path":"scripts/scrPlayerBehaviour/scrPlayerBehaviour.yy",},"order":0,},
     {"id":{"name":"Ground_1","path":"sprites/Ground_1/Ground_1.yy",},"order":0,},
