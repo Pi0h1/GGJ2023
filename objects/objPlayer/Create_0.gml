@@ -1,8 +1,11 @@
+generation=0;
 instance_create_depth(0,0,1,objSolidFollowPlayer);
 instance_create_depth(384-32,0,1,objSolidFollowPlayer);
 instance_create_depth(x,y,1,objCursor);
 playerJacket = jacketIdle
 colorJacket = make_colour_hsv(random(255),192,192);
+hp = 3;
+isClimbing = false;
 isNoclip = false;
 delta = min(1, (delta_time / (1000000/60)));
 coyoteTime = 10;
@@ -16,7 +19,7 @@ yStretch=0
 stretchSpeed=0.05;
 playerXscale = image_xscale;
 playerYscale = image_yscale;
-depth=-1;
+depth=-11;
 global.playerStartY = y;
 global.playerStartX = x;
 isDead=0;
@@ -40,4 +43,4 @@ PlayerWalking=sprPlayer;
 PlayerIdle=sprPlayerIdle;
 SolidObject=objSolid;
 PlayerJump=sprPlayerJump;
-PlayerFall=sprPlayerJump;
+PlayerFall=sprPlayerFall;

@@ -7,6 +7,10 @@ global.res_height	= 768;
 window_set_size(global.res_width, global.res_height);
 surface_resize(application_surface, global.res_width, global.res_height);
 
+camera_set_view_size(view_camera[0],global.game_width, global.game_height);
+
+cameraZoom = 0;
+
 nextRoom = rmTest;
 
 room_goto(nextRoom);
@@ -22,3 +26,8 @@ filterAlpha = 0.1;
 toggleFilter = true;
 
 global.musicTrack = 0;
+
+fadeInAlpha = 1;
+fadeSpeed = 0.05;
+
+heartScale = 1;

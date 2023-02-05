@@ -9,9 +9,11 @@ function scrPlayerBehaviour(){
 	var jkey = keyboard_check_pressed(vk_space) || keyboard_check_pressed(ord("z")) || gamepad_button_check_pressed(0, gp_face1);
 	
 	if !isNoclip {
+		
 		if (rkey || lkey) {
 		    move = rkey - lkey;
 			yStretch = 0.05;
+			isClimbing = false;
 		} else {
 		    move = haxis
 		}
@@ -23,6 +25,15 @@ function scrPlayerBehaviour(){
 	
 		if rkey {isMirrored = false; sprite_index=PlayerWalking;}
 		if lkey {isMirrored = true; sprite_index=PlayerWalking;}
+	
+		//Climbing
+		if (ukey || dkey) {
+			if place_meeting(x,y,objTree){
+				isClimbing = true;
+				if ukey y-=spd;
+				if dkey y+=spd;
+			}
+		}
 	}
 	
 	if isNoclip {
@@ -33,7 +44,7 @@ function scrPlayerBehaviour(){
 		sprite_index=PlayerJump;
 	}
 	
-	if !isNoclip{
+	if !isNoclip {
 		if ((!rkey && !lkey) || (rkey && lkey)) {
 		        hspd = 0 sprite_index = PlayerIdle;
 		    }
@@ -60,8 +71,9 @@ function scrPlayerBehaviour(){
 		    vspd = 0
 			hasJumped=false;
 		}
-		y += vspd
-
+		
+		if !isClimbing {y += vspd;}
+		
 		if (place_meeting(x, y + 1, SolidObject)) {
 		    isTouchingGround=true;
 			jump = 0
@@ -77,7 +89,7 @@ function scrPlayerBehaviour(){
 		} else {
 			isTouchingGround=false;
 		    if vspd < 10 {
-		        vspd += grav
+				if !isClimbing {vspd += grav}
 		        if jump = 1 {
 		            if grav > vspd sprite_index = PlayerJump
 		            else sprite_index = PlayerFall

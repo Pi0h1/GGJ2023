@@ -1,4 +1,8 @@
 
-if !place_meeting(x,y-1,objSolid){
-image_yscale+=0.01;
+if image_yscale < treeScale {
+	image_yscale += treeGrowthSpeed;
+}
+
+if growth >= growthTotal{
+instance_destroy();
 }

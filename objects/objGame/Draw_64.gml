@@ -12,3 +12,7 @@ if toggleFilter {
 	gpu_set_blendmode(bm_normal);
 	draw_sprite_tiled_ext(sprScanlines,0,0,0,1,1,c_white,filterAlpha);
 }
+
+draw_set_alpha(fadeInAlpha);
+draw_rectangle_color(-200,-200,500,500,c_black,c_black,c_black,c_black,0);
+draw_set_alpha(1);

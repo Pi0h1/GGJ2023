@@ -1,0 +1,1 @@
+cameraZoom+=10;

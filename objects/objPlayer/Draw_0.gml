@@ -6,4 +6,6 @@ if global.devMode {
 	if !isNoclip{
 	draw_sprite_ext(collisionPlayer, 0,x,y,1,1,0,c_white,0.2)
 	}
+
+draw_text(x,y-8,"climbing = "+ string(isClimbing));
 }
