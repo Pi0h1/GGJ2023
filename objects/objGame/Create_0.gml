@@ -1,3 +1,4 @@
+full=false;
 global.game_width	= 384;
 global.game_height	= 272;
 
@@ -11,7 +12,7 @@ camera_set_view_size(view_camera[0],global.game_width, global.game_height);
 
 cameraZoom = 0;
 
-nextRoom = rmTest;
+nextRoom = rmMenu;
 
 room_goto(nextRoom);
 

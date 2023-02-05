@@ -1,3 +1,5 @@
+if invincibility > 0 image_alpha = 0.25 else image_alpha = 1;
+
 draw_sprite_ext(sprite_index,image_index,x,y,playerXscale,playerYscale,image_angle,image_blend,image_alpha);
 
 draw_sprite_ext(playerJacket,image_index,x,y,playerXscale,playerYscale,image_angle,colorJacket,image_alpha);
