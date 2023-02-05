@@ -37,6 +37,7 @@ function scrPlayerBehaviour(){
 			if ukey {if place_meeting(x,y-28,objTree) y-=spd;}
 			if dkey {if !place_meeting(x,y-1,objSolid) y+=spd;}
 		}
+		if !place_meeting(x,y,objTree){isClimbing=false}
 	}
 	
 	if isNoclip {

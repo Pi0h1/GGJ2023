@@ -16,3 +16,8 @@ if toggleFilter {
 draw_set_alpha(fadeInAlpha);
 draw_rectangle_color(-200,-200,500,500,c_black,c_black,c_black,c_black,0);
 draw_set_alpha(1);
+
+if toggleFilter {
+display_set_gui_size(global.res_width, global.res_height);
+draw_sprite_ext(sprTVoverlay,0,0,0,.71,.715,0,c_white,1);
+}
