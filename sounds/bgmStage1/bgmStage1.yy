@@ -13,7 +13,7 @@
   "duration": 109.94073,
   "parent": {
     "name": "Sound",
-    "path": "folders/!Sprites/Sound.yy",
+    "path": "folders/Sound.yy",
   },
   "preload": false,
   "sampleRate": 44100,

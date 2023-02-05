@@ -14,6 +14,7 @@ function scrPlayerBehaviour(){
 		    move = rkey - lkey;
 			yStretch = 0.05;
 			isClimbing = false;
+			mosquitoTimer=mosquitoAppear;
 		} else {
 		    move = haxis
 		}
@@ -35,7 +36,7 @@ function scrPlayerBehaviour(){
 		
 		if isClimbing {
 			if ukey {if place_meeting(x,y-28,objTree) y-=spd;}
-			if dkey {if !place_meeting(x,y-1,objSolid) y+=spd;}
+			//if dkey {if !place_meeting(x,y-1,objSolid) y+=spd;}
 		}
 		if !place_meeting(x,y,objTree){isClimbing=false}
 	}
@@ -88,6 +89,7 @@ function scrPlayerBehaviour(){
 					stretch=0.5;
 		            jump = 1
 					hasJumped=true;
+					playSound(choose(sndJump1,sndJump2,sndJump3,sndJump4,sndJump5));
 		        }
 		    }
 		} else {

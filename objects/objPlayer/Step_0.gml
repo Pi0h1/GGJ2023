@@ -1,7 +1,11 @@
 scrPlayerBehaviour();
 
 if isDead {
-	room_restart();
+	//room_restart();
+	instance_destroy();
+	instance_create_depth(x,y,1,objPlayerDeath);
+	playMusic(sndGameOver);
+	
 }
 
 if sprite_index=PlayerIdle {playerJacket = jacketIdle}
@@ -16,4 +20,10 @@ if invincibility < 0 invincibility = 0;
 
 if hp=0 {
  isDead = true;
+}
+
+if mosquitoTimer > 0 mosquitoTimer -= 1;
+if mosquitoTimer <= 0 {
+if !instance_exists(objMosquito) instance_create_depth(x+random(64),y+128,objPlayer.depth,objMosquito)
+mosquitoTimer = mosquitoAppear;
 }

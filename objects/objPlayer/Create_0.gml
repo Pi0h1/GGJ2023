@@ -45,3 +45,5 @@ PlayerIdle=sprPlayerIdle;
 SolidObject=objSolid;
 PlayerJump=sprPlayerJump;
 PlayerFall=sprPlayerFall;
+mosquitoAppear = 400
+mosquitoTimer = mosquitoAppear;

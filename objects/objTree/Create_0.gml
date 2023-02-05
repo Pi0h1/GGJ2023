@@ -3,7 +3,7 @@ depth=-9
 sprite_index = choose(sprTree, sprTree2,sprTree3);
 
 growth = 0;
-treeScale = image_yscale;
+treeScale = 1;
 treeGrowthSpeed = 0.05;
 
 growthTotal = 3;

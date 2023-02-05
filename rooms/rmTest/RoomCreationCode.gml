@@ -1,0 +1,1 @@
+playMusic(bgmStage1);

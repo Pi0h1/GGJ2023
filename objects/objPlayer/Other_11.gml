@@ -2,3 +2,4 @@
 if invincibility > 0 exit;
 hp--;
 invincibility = 60;
+playSound(sndHit);
