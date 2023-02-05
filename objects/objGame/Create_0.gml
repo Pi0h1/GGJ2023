@@ -14,7 +14,7 @@ cameraZoom = 0;
 
 nextRoom = rmMenu;
 
-room_goto(nextRoom);
+//room_goto(nextRoom);
 
 depth=-999;
 

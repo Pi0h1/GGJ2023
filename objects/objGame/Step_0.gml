@@ -16,3 +16,17 @@ if global.devMode {
 } else {
 	camera_set_view_size(view_camera[0],global.game_width, global.game_height);
 }
+
+if room=rmInit{
+
+if !audio_is_playing(sndGameJam){
+		room_goto(rmCredits);
+	}
+}
+
+if room=rmCredits{
+
+if !audio_is_playing(sndCredits){
+		room_goto(nextRoom);
+}
+}

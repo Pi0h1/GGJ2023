@@ -19,3 +19,6 @@ instance_destroy();
 }
 
 if room=rmMenu {instance_destroy();}
+
+
+//audio_sound_gain(sndMosquito, point_distance(x,y,objPlayer.x,objPlayer.y), 1);

@@ -8,7 +8,7 @@ my_id2=instance_create_depth(x2,y,1,objGround)
 my_id2.image_xscale = random(1)+choose(1,2);
 
 if value <= 6 {
-instance_create_depth(choose(x1+48,x2),y,10,choose(objEnemy,objTurtle,objOrange))
+instance_create_depth(choose(x1+32,x2),y,10,choose(objEnemy,objTurtle,objOrange))
 }
 
 if treasureChance <= 4 {

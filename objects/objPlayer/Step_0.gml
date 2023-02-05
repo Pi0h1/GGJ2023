@@ -4,7 +4,7 @@ if isDead {
 	//room_restart();
 	instance_destroy();
 	instance_create_depth(x,y,1,objPlayerDeath);
-	playMusic(sndGameOver);
+	//playSound(sndDead)
 	
 }
 
