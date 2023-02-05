@@ -23,6 +23,7 @@
     {"name":"objSeed","order":11,"path":"objects/objSeed/objSeed.yy",},
     {"name":"playMusic","order":2,"path":"scripts/playMusic/playMusic.yy",},
     {"name":"objBorder","order":3,"path":"objects/objBorder/objBorder.yy",},
+    {"name":"jacketClimb","order":10,"path":"sprites/jacketClimb/jacketClimb.yy",},
     {"name":"playSound","order":5,"path":"scripts/playSound/playSound.yy",},
     {"name":"jacketWalk","order":6,"path":"sprites/jacketWalk/jacketWalk.yy",},
     {"name":"sprHeartBroken","order":15,"path":"sprites/sprHeartBroken/sprHeartBroken.yy",},

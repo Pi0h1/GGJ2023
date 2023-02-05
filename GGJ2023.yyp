@@ -40,6 +40,7 @@
     {"id":{"name":"objSeed","path":"objects/objSeed/objSeed.yy",},"order":0,},
     {"id":{"name":"playMusic","path":"scripts/playMusic/playMusic.yy",},"order":0,},
     {"id":{"name":"objBorder","path":"objects/objBorder/objBorder.yy",},"order":0,},
+    {"id":{"name":"jacketClimb","path":"sprites/jacketClimb/jacketClimb.yy",},"order":0,},
     {"id":{"name":"playSound","path":"scripts/playSound/playSound.yy",},"order":0,},
     {"id":{"name":"jacketWalk","path":"sprites/jacketWalk/jacketWalk.yy",},"order":0,},
     {"id":{"name":"sprHeartBroken","path":"sprites/sprHeartBroken/sprHeartBroken.yy",},"order":0,},

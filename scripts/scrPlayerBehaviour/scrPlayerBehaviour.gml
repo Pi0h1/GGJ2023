@@ -30,9 +30,12 @@ function scrPlayerBehaviour(){
 		if (ukey || dkey) {
 			if place_meeting(x,y,objTree){
 				isClimbing = true;
-				if ukey y-=spd;
-				if dkey y+=spd;
 			}
+		}
+		
+		if isClimbing {
+			if ukey {if place_meeting(x,y-28,objTree) y-=spd;}
+			if dkey {if !place_meeting(x,y-1,objSolid) y+=spd;}
 		}
 	}
 	
@@ -80,7 +83,7 @@ function scrPlayerBehaviour(){
 		    vspd = 0
 		    if (jkey) {
 		        if !place_meeting(x,y-1,SolidObject){
-		            vspd = -jspd
+		            if !isClimbing {vspd = -jspd}
 					stretch=0.5;
 		            jump = 1
 					hasJumped=true;
