@@ -1,8 +1,11 @@
 function scrPlayerBehaviour(){
 	var lkey = (keyboard_check(ord("A")) || keyboard_check(vk_left) || gamepad_button_check(0, gp_padl)) || gamepad_axis_value(0, gp_axislh) < 0;
 	var rkey = (keyboard_check(ord("D")) || keyboard_check(vk_right) || gamepad_button_check(0, gp_padr)) || gamepad_axis_value(0, gp_axislh) > 0;
-	var ukey = (keyboard_check(ord("W"))) || keyboard_check(vk_up);
-	var dkey = (keyboard_check(ord("S"))) || keyboard_check(vk_down);
+	var ukey = (keyboard_check(ord("W"))) || keyboard_check(vk_up) || gamepad_button_check(0,gp_padu) || gamepad_axis_value(0, gp_axislv) < 0;
+	var dkey = (keyboard_check(ord("S"))) || keyboard_check(vk_down) || gamepad_button_check(0,gp_padd) || gamepad_axis_value(0, gp_axislv) > 0;
+	
+	if gamepad_button_check_released(0,gp_padd) or gamepad_button_check_released(0,gp_face2) {event_perform(ev_keyrelease,ord("S"))}
+	if gamepad_button_check_released(0, gp_face4) {event_perform(ev_keyrelease,ord("E"))}
 	
 	var haxis = (gamepad_axis_value(0, gp_axislh))
 	if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2) {}
@@ -36,8 +39,18 @@ function scrPlayerBehaviour(){
 		
 		if isClimbing {
 			if ukey {if place_meeting(x,y-28,objTree) y-=spd;}
-			//if dkey {if !place_meeting(x,y-1,objSolid) y+=spd;}
+			if dkey {if place_meeting(x,y+32,objTree) y+=spd;}
+		
+			if jkey {
+			isClimbing=false;
+			vspd = -jspd
+		    jump = 1
+			hasJumped=true;
+			} else {
+			vspd=0;
+			}
 		}
+	
 		if !place_meeting(x,y,objTree){isClimbing=false}
 	}
 	
@@ -84,22 +97,23 @@ function scrPlayerBehaviour(){
 			jump = 0
 		    vspd = 0
 		    if (jkey) {
-		        if !place_meeting(x,y-1,SolidObject){
-		            if !isClimbing {vspd = -jspd}
+		        //if !place_meeting(x,y-1,SolidObject){
+		            //if !isClimbing {vspd = -jspd}
+					vspd = -jspd
 					stretch=0.5;
 		            jump = 1
 					hasJumped=true;
 					playSound(choose(sndJump1,sndJump2,sndJump3,sndJump4,sndJump5));
-		        }
+		        //}
 		    }
 		} else {
 			isTouchingGround=false;
 		    if vspd < 10 {
 				if !isClimbing {vspd += grav}
-		        if jump = 1 {
+		       // if jump = 1 {
 		            if grav > vspd sprite_index = PlayerJump
 		            else sprite_index = PlayerFall
-		        }
+		        //}
 		    }
 		}
 

@@ -1,3 +1,7 @@
+if !instance_exists(objFurthestScore){
+	instance_create_depth(x,y,1,objFurthestScore);
+}
+seedAmmo=2;
 invincibility=0;
 generation=0;
 instance_create_depth(0,0,1,objSolidFollowPlayer);
@@ -5,7 +9,7 @@ instance_create_depth(384-32,0,1,objSolidFollowPlayer);
 instance_create_depth(x,y,1,objCursor);
 playerJacket = jacketIdle
 colorJacket = make_colour_hsv(random(255),192,192);
-hp = 3;
+hp = 6;
 isClimbing = false;
 isNoclip = false;
 delta = min(1, (delta_time / (1000000/60)));
@@ -30,7 +34,7 @@ image_speed = 0.2;
 grav = 0.15;
 treasures = 0;
 playerSpeed=2;
-jspd=3;
+jspd=4;
 hspd=0;
 vspd=0;
 f=0.4;

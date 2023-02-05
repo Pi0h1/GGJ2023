@@ -18,3 +18,4 @@ with objGame {
 fadeInAlpha = 1;
 }
 
+seedAmmo=2

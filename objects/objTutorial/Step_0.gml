@@ -1,0 +1,1 @@
+image_index=round(image_index);

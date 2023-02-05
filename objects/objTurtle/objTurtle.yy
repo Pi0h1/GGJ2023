@@ -34,6 +34,9 @@
     "name": "sprTurtle",
     "path": "sprites/sprTurtle/sprTurtle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprOldMan",
+    "path": "sprites/sprOldMan/sprOldMan.yy",
+  },
   "visible": true,
 }

@@ -1,0 +1,1 @@
+y-= objPlayer.spd;

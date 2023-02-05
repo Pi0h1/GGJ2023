@@ -1,5 +1,5 @@
 if instance_exists(objPlayer){
-	objPlayer.treasures++;
+	objPlayer.treasures+=value;
 }
 
 playSound(sndCoin);
