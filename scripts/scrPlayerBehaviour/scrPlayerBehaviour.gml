@@ -147,4 +147,14 @@ if isMirrored {
 }
 
 //playerYscale = 1 -stretch;
+
+if sprite_index=sprPlayerClimbing{
+	if (dkey || ukey){
+		image_speed=0
+		image_index+=0.2;
+		} else {
+		image_speed=0;
+		}
+}
+
 }
