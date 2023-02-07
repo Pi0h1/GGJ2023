@@ -6,8 +6,8 @@ if global.devMode{
 	var devString ="Dev mode is ON"+"\n"+fpsString+"\n"+"Global Game Jam 2023"+"\n"+"https://wwww.pi0h1.com/"+"\n"+"Press R to Restart"+"\n"+"Shift + G to Toggle Filter"+"\n"+"V to Noclip"+"\n"+"Camera zoom with Mousewheel";
 	
 } else {
-	//devString = "Press [G] to Enter Dev Mode"
-	devString = ""
+	devString = "Press [G] to Enter Dev Mode"
+	//devString = ""
 }
 
 draw_set_valign(fa_top);
