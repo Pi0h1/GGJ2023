@@ -1,6 +1,9 @@
 if !instance_exists(objFurthestScore){
 	instance_create_depth(x,y,1,objFurthestScore);
 }
+if !instance_exists(objPlatformLimit){
+	instance_create_depth(x-32,y,1,objPlatformLimit);
+}
 seedAmmo=2;
 invincibility=0;
 generation=0;

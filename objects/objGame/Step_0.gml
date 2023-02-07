@@ -17,16 +17,22 @@ if global.devMode {
 	camera_set_view_size(view_camera[0],global.game_width, global.game_height);
 }
 
-if room=rmInit{
 
-if !audio_is_playing(sndGameJam){
-		room_goto(rmCredits);
+	if room=rmInit{
+
+	if !audio_is_playing(sndGameJam){
+			room_goto(rmCredits);
+		}
 	}
-}
 
-if room=rmCredits{
+	if room=rmCredits{
 
-if !audio_is_playing(sndCredits){
-		room_goto(nextRoom);
-}
+	if !audio_is_playing(sndCredits){
+			room_goto(nextRoom);
+	}
+	}
+	
+if file_exists(program_directory + "Runner.exe") && start=0{
+	room_goto(nextRoom)
+	start=1;
 }

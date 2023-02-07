@@ -11,7 +11,7 @@ surface_resize(application_surface, global.res_width, global.res_height);
 camera_set_view_size(view_camera[0],global.game_width, global.game_height);
 
 cameraZoom = 0;
-
+start=0;
 nextRoom = rmMenu;
 
 //room_goto(nextRoom);
