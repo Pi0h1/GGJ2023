@@ -1,3 +1,4 @@
+hurtIndex=0;
 if !instance_exists(objFurthestScore){
 	instance_create_depth(x,y,1,objFurthestScore);
 }

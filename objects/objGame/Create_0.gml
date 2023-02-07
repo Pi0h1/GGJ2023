@@ -32,3 +32,5 @@ fadeInAlpha = 1;
 fadeSpeed = 0.05;
 
 heartScale = 1;
+
+//room_goto(nextRoom);

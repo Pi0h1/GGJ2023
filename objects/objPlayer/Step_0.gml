@@ -3,7 +3,8 @@ scrPlayerBehaviour();
 if isDead {
 	//room_restart();
 	instance_destroy();
-	instance_create_depth(x,y,1,objPlayerDeath);
+	my_id=instance_create_depth(x,y,1,objPlayerDeath);
+	my_id.colorJacket=colorJacket;
 	//playSound(sndDead)
 	
 }

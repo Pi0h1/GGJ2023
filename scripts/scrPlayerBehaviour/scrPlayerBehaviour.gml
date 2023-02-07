@@ -45,6 +45,7 @@ function scrPlayerBehaviour(){
 			isClimbing=false;
 			vspd = -jspd
 		    jump = 1
+			playSound(choose(sndJump1,sndJump2,sndJump3,sndJump4,sndJump5));
 			hasJumped=true;
 			} else {
 			vspd=0;
@@ -93,6 +94,7 @@ function scrPlayerBehaviour(){
 		if !isClimbing {y += vspd;}
 		
 		if (place_meeting(x, y + 1, SolidObject)) {
+			if !isClimbing{if isTouchingGround = false {playSound(sndHitGround)}}
 		    isTouchingGround=true;
 			jump = 0
 		    vspd = 0

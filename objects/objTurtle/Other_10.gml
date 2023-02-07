@@ -1,3 +1,4 @@
+playSound(sndBounce);
 sprite_index=sprTurtleRoll;
 spd=3.5;
 if objPlayer.x>x {
